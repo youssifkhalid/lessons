@@ -161,7 +161,8 @@ export const coursesData: CoursesData = {
         { id: "c5_5_1", name: "البنزين العطري: التحضير وتفاعلات الإحلال", chapter: 5, completed: false },
         { id: "c5_5_2", name: "توجيه المجموعات (أورثو وبارا وميتا)", chapter: 5, completed: false },
         { id: "c5_6_1", name: "الكحولات: التصنيف والخواص (الأكسدة)", chapter: 5, completed: false },
-        { id: "c5_7_1", "الفينولات: الخواص الحمضية والكشف عنها", chapter: 5, completed: false },
+        // --- هذا هو السطر الذي تم إصلاحه ---
+        { id: "c5_7_1", name: "الفينولات: الخواص الحمضية والكشف عنها", chapter: 5, completed: false },
         { id: "c5_8_1", name: "الأحماض الكربوكسيلية: الخواص الحمضية", chapter: 5, completed: false },
         { id: "c5_9_1", name: "الإسترات: تفاعل الأسترة والتحلل المائي والخواص", chapter: 5, completed: false },
       ],
@@ -336,7 +337,7 @@ export const coursesData: CoursesData = {
         // --- Chapter 3: Skills (المهارات) ---
         { id: "en3_1_1", name: "Skills: Reading - Skimming and Scanning (القراءة السريعة والتصفح)", chapter: 3, completed: false },
         { id: "en3_1_2", name: "Skills: Reading - Guessing Meaning from Context (تخمين المعنى من السياق)", chapter: 3, completed: false },
-        { id: "en3_2_1", name: "Skills: Writing - Essay Structure (Intro, Body, Conclusion) (بناء المقال)", chapter: 3, completed: false },
+        { id:_ "en3_2_1", name: "Skills: Writing - Essay Structure (Intro, Body, Conclusion) (بناء المقال)", chapter: 3, completed: false },
         { id: "en3_2_2", name: "Skills: Writing - Types of Essays (أنواع المقالات)", chapter: 3, completed: false },
         { id: "en3_2_3", name: "Skills: Writing - Punctuation (علامات الترقيم)", chapter: 3, completed: false },
         { id: "en3_2_4", name: "Skills: Writing - Cohesion and Coherence (الترابط)", chapter: 3, completed: false },
